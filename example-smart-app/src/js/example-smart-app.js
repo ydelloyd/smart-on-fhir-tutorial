@@ -51,6 +51,9 @@
           console.log(p.weight);
           weight = byCodes('29463-7');
           console.log(p.weight);
+          weight = byCodes('3142-7');
+          console.log(weight);
+          console.log(height)
           p.weight = getQuantityValueAndUnit(weight[0]);
           p.height = getQuantityValueAndUnit(height[0]);
 
