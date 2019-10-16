@@ -49,7 +49,7 @@
           p.gender = gender;
           p.fname = fname;
           p.lname = lname;
-          console.log(weight);
+          console.log(weight[0]);
           p.weight = getQuantityValueAndUnit(weight[0]);
           p.height = getQuantityValueAndUnit(height[0]);
 
